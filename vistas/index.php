@@ -21,7 +21,7 @@
     <link href="<?php echo base_url; ?>assets/css/style.css" rel="stylesheet" />
     <link href="<?php echo base_url; ?>assets/css/styleCarousel.css" rel="stylesheet" />
     <!-- Google	Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' /> -->
 </head>
 
 <body>
@@ -126,9 +126,10 @@
 
     </div>
     <!--HOME SECTION TAG LINE END-->
+
+    <!--QUIENES SOMOS-->
     <div id="features-sec" class="container set-pad">
         <div class="row text-center">
-            <!-- <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2"> -->
             <div>
                 <h1 data-scroll-reveal="enter from the bottom after 0.2s" class="header-line"> QUIENES SOMOS </h1>
                 <p data-scroll-reveal="enter from the bottom after 0.3s" style="text-align: justify;">
@@ -137,27 +138,17 @@
                     C.A.M.E., fue constituida en la ciudad de Riobamba el 5 de Abril del 2022 por la Eco. Carla Pamela Quishpe Gualán con la finalidad de brindar apoyo escolar a estudiantes de básica elemental (segundo, tercer y cuarto grado de primaria), básica media (quinto, sexto, séptimo grado de primaria), básica superior ( octavo, noveno y décimo grado) y bachillerato
                 </p>
             </div>
-
         </div>
-        <!--/.HEADER LINE END-->
-
-
         <div class="row">
-
-
             <div class="col-lg-6  col-md-6 col-sm-6" data-scroll-reveal="enter from the bottom after 0.4s">
                 <div class="about-div">
                     <center><i class="fa fa-comments-o fa-4x icon-round-border"></i></center>
                     <center>
                         <h3>MISIÓN</h3>
                     </center>
-                    <!-- <hr />
-                    <hr /> -->
                     <p>
                         Brindar servicios de apoyo escolar y nivelación de conocimientos académicos que satisfagan las necesidades academicas y adquieran seguridad al momento de poner en prática los conocimientos en cada una de sus instituciones educativas.
-
                     </p>
-                    <!-- <a href="#" class="btn btn-info btn-set">ASK THE EXPERT</a> -->
                 </div>
             </div>
             <div class="col-lg-6  col-md-6 col-sm-6" data-scroll-reveal="enter from the bottom after 0.5s">
@@ -166,32 +157,101 @@
                     <center>
                         <h3>VISIÓN</h3>
                     </center>
-
                     <p>
                         Convertirnos en una Institución Académica líder, que sea capaz de expandirse en distintas ciudades del país, para yudar a muchos estudiantes en su rendimiento académico, en cada una de sus instituciones educativas.
-
                     </p>
-                    <!-- <a href="#" class="btn btn-info btn-set">ASK THE EXPERT</a> -->
                 </div>
             </div>
-            <!-- <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
-                <div class="about-div">
-                    <i class="fa fa-magic fa-4x icon-round-border"></i>
-                    <h3>ONE TO ONE STUDY</h3>
-                    <hr />
-                    <hr />
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo .
-
-                    </p>
-                    <a href="#" class="btn btn-info btn-set">ASK THE EXPERT</a>
-                </div>
-            </div> -->
-
-
         </div>
     </div>
+
+    <!-- SERVICIOS POR DIAS -->
+    <div class="container">
+        <div class="row text-center">
+            <div>
+                <h2 data-scroll-reveal="enter from the bottom after 0.2s" style="font-size: 3rem; width: 100%; height: auto; padding-top: 0%;margin-top: 0%;"> NUESTROS SERVICIOS</h2>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
+                <div class="about-div">
+                    <img src="assets/img/servicios/s7.png" class="img-rounded2" />
+                    <h3 style="font-size: 1.1rem; text-align: center;">CINCO DÍAS A LA SEMANA</h3>
+                    <!-- <hr />
+                    <hr /> -->
+                    <p>
+                        El estudiante tiene asistirá los cinco días de la semana en horarios que se adapten a su disponibilidad, ya sea por la mañana o por la tarde.
+                    </p>
+                    <center>
+                        <div class="btnPosicion"><a href="" class="">Visitar</a></div>
+                    </center>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
+                <div class="about-div">
+                    <img src="assets/img/servicios/s6.png" class="img-rounded2" />
+                    <h3 style="font-size: 1.1rem; text-align: center;">CUATRO DÍAS A LA SEMANA</h3>
+                    <!-- <hr />
+                    <hr /> -->
+                    <p>
+                        El estudiante tiene la flexibilidad de elegir los 4 días entre semana en horarios que se adapten a su disponibilidad, ya sea por la mañana o por la tarde.
+                    </p>
+                    <center>
+                        <div class="btnPosicion"><a href="" class="">Visitar</a></div>
+                    </center>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
+                <div class="about-div">
+                    <img src="assets/img/servicios/s5.png" class="img-rounded2" />
+                    <h3 style="font-size: 1.1rem; text-align: center;">TRES DÍAS A LA SEMANA</h3>
+                    <!-- <hr />
+                    <hr /> -->
+                    <p>
+                        El estudiante tiene la flexibilidad de elegir los 3 días entre semana en horarios que se adapten a su disponibilidad, ya sea por la mañana o por la tarde.
+                    </p>
+                    <center>
+                        <div class="btnPosicion"><a href="" class="">Visitar</a></div>
+                    </center>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
+                <div class="about-div">
+                    <img src="assets/img/servicios/s4.png" class="img-rounded2" />
+                    <h3 style="font-size: 1.1rem; text-align: center;">DOS DÍAS A LA SEMANA</h3>
+                    <!-- <hr />
+                    <hr /> -->
+                    <p>
+                        El estudiante tiene la flexibilidad de elegir los 2 días entre semana en horarios que se adapten a su disponibilidad, ya sea por la mañana o por la tarde.
+                    </p>
+                    <center>
+                        <div class="btnPosicion"><a href="" class="">Visitar</a></div>
+                    </center>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
+                <div class="about-div">
+                    <img src="assets/img/servicios/s3.png" class="img-rounded2" />
+                    <h3 style="font-size: 1.1rem; text-align: center;">UN DÍA A LA SEMANA</h3>
+                    <!-- <hr />
+                    <hr /> -->
+                    <p>
+                        El estudiante tiene la flexibilidad de elegir un día entre la semana en horarios que se adapten a su disponibilidad, ya sea por la mañana o por la tarde.
+                    </p>
+                    <center>
+                        <div class="btnPosicion"><a href="" class="">Visitar</a></div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- FEATURES SECTION END-->
     <div id="faculty-sec">
         <div class="container set-pad">
@@ -202,13 +262,9 @@
                         El equipo responsable de trabajo esta constituido por las siguientes personas a cargo:
                     </p>
                 </div>
-
             </div>
             <!--/.HEADER LINE END-->
-
             <div class="row">
-
-
                 <div class="col-lg-6  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
                     <div class="faculty-div">
                         <img src="assets/img/equipo/eq1.png" class="img-rounded" />
@@ -231,24 +287,33 @@
                         </p>
                     </div>
                 </div>
-                <!-- <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
-                    <div class="faculty-div">
-                        <img src="assets/img/equipo/3.jpg" class="img-rounded" />
-                        <h3>RUBY DECORSA</h3>
-                        <hr />
-                        <h4>Management <br /> Department</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo .
-
-                        </p>
-                    </div>
-                </div> -->
-
             </div>
         </div>
     </div>
     <!-- EQUIPO SECTION END-->
+
+    <!-- SERVICIOS EL COMPLETO-->
+    <div id="services-sec" class="container set-pad">
+        <div class="row text-center">
+            <h1 data-scroll-reveal="enter from the bottom after 0.2s" class="header-line"> SERVICIOS </h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-6  col-md-6 col-sm-6" data-scroll-reveal="enter from the bottom after 0.4s">
+                <div class="about-div">
+                    <center><img src="assets/img/servicios/s1.png" class="img-rounded2" /></center>
+                    <!-- <center>
+                        <h3>MISIÓN</h3>
+                    </center> -->
+                </div>
+            </div>
+            <div class="col-lg-6  col-md-6 col-sm-6" data-scroll-reveal="enter from the bottom after 0.5s">
+                <div class="about-div">
+                    <center><img src="assets/img/servicios/s2.png" class="img-rounded2" /></center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SERVICIOS EL COMPLETO FIN-->
 
     <!-- EQUIPO EVENTOS-->
     <!-- <div id="course-sec" class="container set-pad">
@@ -261,8 +326,9 @@
             </div>
         </div>
         <div class="row set-row-pad"> -->
-            <?php // include "vistasGenerales/eventos.php"; ?>
-        <!-- </div>
+    <?php // include "vistasGenerales/eventos.php"; 
+    ?>
+    <!-- </div>
     </div> -->
     <!-- COURSES EVENTOS END-->
 
@@ -306,14 +372,14 @@
             </div>
         </div>
     </div> -->
-<!-- COURSES GALERIA FIN-->
+    <!-- COURSES GALERIA FIN-->
     <div id="contacto-sec" class="container set-pad">
         <div class="overlay">
             <div class="row text-center">
                 <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">CONTACTOS </h1>
                 <div class="row set-row-pad">
                     <div class="col-md-8">
-                        <div class="map">
+                        <div class="map-container">
                             <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7513757126558!2d-78.52714418989117!3d-0.3319093996634301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5a2548ebfd141%3A0x9bd61650ecc36d6e!2sBarrio%20Divino%20Ni%C3%B1o!5e0!3m2!1ses!2sec!4v1697711584641!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
@@ -327,16 +393,16 @@
                             <li><i class="fa fa-phone fa-2x" style=" color:#1c2b4b;"></i> 0983033547 - 0984111628</li>
                             <br><br>
                             <li></i> QUITO - ECUADOR</li>
-                           
+
                             <!-- <li><a href="#"> <img src="assets/img/Social/facebook.png" alt="" /> </a></li>
                             <li><a href="#"> <img src="assets/img/Social/facebook.png" alt="" /> </a></li> -->
                         </ul>
                         <section class="iconsMap" id="iconsMap">
                             <div>
                                 <ul>
-                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
-                                    
+                                    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+
                                 </ul>
                             </div>
                         </section>
@@ -346,10 +412,41 @@
         </div>
     </div>
     <!-- CONTACT SECTION END-->
+
+    <!-- WHATSAPP -->
+    <div id="whatsapp-container">
+        <a href="https://wa.me/593984111628" target="_blank" id="whatsapp-button">
+            <img src="assets/img/social/wsp2.png" alt="WhatsApp">
+        </a>
+    </div>
+    <!-- WHATSAPP FIN-->
+
+    <!-- FLECHA DE REDIRECCION AL INICIO-->
+    <!-- <div id="scroll-to-top" style="position: fixed; bottom: 70px; right: -410px;">
+        <a href="#home" id="scroll-to-top-link"> -->
+    <!-- <i class="fa fa-arrow-up"></i> -->
+    <!-- <img style="width:9%;" src="assets/img/social/flecha.png" alt="">
+        </a>
+    </div> -->
+    <!-- FLECHA DE REDIRECCION AL INICIO FIN-->
+
+
     <div id="footer">
-        &copy <?php echo date("Y")?> | All Rights Reserved | <a href="https://softcodi.com/"  style="color: #fff" target="_blank">Design by : SOFTCODI</a>
+        &copy <?php echo date("Y") ?> | All Rights Reserved | <a href="https://softcodi.com/" style="color: #fff" target="_blank">Design by : SOFTCODI</a>
     </div>
     <!-- FOOTER SECTION END-->
+
+    <script>
+        // Cambia el color del menú al desplazarse hacia abajo
+        window.addEventListener('scroll', function() {
+            var navbar = document.getElementById('menu');
+            if (window.scrollY > 10) {
+                navbar.classList.add('navbar-scrolled');
+            } else {
+                navbar.classList.remove('navbar-scrolled');
+            }
+        });
+    </script>
 
     <!--  Jquery Core Script -->
     <script src="<?php echo base_url; ?>assets/js/jquery-1.10.2.js"></script>
